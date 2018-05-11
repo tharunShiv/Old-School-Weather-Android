@@ -80,6 +80,9 @@ public class WeatherController extends AppCompatActivity {
         super.onResume();
 
         Log.d("Clima", "onresume called");
+
+        Intent myIntent = getIntent();
+        String city = myIntent.getStringExtra("City");
         Log.d("Clima", "Getting weather for curr location");
         getWeatherForCurrentLocation();
     }
