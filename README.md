@@ -18,7 +18,7 @@ Features:
 
 ## Advantages of using this app?
 1. Know the weather, can save you a lots of headache.
-2. Collects <b>Zero<b> data from you. 
+2. Collects <b>Zero</b> data from you. 
 3. <b>Zero</b> ads
 4. Best of all - It's open source - just make changes and pull request.
 
