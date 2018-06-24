@@ -35,6 +35,8 @@ public class ChangeCityController extends AppCompatActivity {
                 String newCity = editTextField.getText().toString();
                 Intent newCityIntent = new Intent(ChangeCityController.this, WeatherController.class);
                 newCityIntent.putExtra("City", newCity);
+                startActivity(newCityIntent);
+
                 return false;
             }
         });
