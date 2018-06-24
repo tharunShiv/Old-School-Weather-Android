@@ -16,6 +16,9 @@ public class ChangeCityController extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
+        //to tell which activity this java file belongs to
+        setContentView(R.layout.change_city_layout);
+
         final EditText editTextField = (EditText) findViewById(R.id.queryET);
         ImageButton backbutton = (ImageButton) findViewById(R.id.backButton);
 
